@@ -15,3 +15,6 @@ def test_bob(bob):
 
 def test_sally(sally):
     assert sally == my_name("sally")
+
+def test_my_name4():
+    assert "My name is: sally" == my_name("sally")

@@ -1,9 +1,11 @@
 install:
 	pip install --upgrade pip &&\
 		pip install -r requirements.txt
+one-test:
+	python -m pytest -vv tests/test_greeting.py::test_my_name4
 
 test:
-	python -m pytest -vv --cov=hello --cov=greeting tests
+	python -m pytest -vv --cov=hello --cov=greeting --cov=smath tests
 	python -m pytest --nbval notebook.ipynb
 
 debug:
