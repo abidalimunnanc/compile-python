@@ -1,4 +1,4 @@
-
+[![Python application test with Github Actions](https://github.com/abidalimunnanc/compile-python/actions/workflows/testmycode.yml/badge.svg)](https://github.com/abidalimunnanc/compile-python/actions/workflows/testmycode.yml)
 
 # compile-python
 This is a repo for compiling and installing python
