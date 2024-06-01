@@ -1,6 +1,6 @@
 [![Python application test with Github Actions](https://github.com/abidalimunnanc/compile-python/actions/workflows/testmycode.yml/badge.svg)](https://github.com/abidalimunnanc/compile-python/actions/workflows/testmycode.yml)
 
-[![AWS](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoid0xtVjlMeXByaGEwbDNiNTFqd1hnaVUycisyckkvQzF6dEcwQkFBNEFub2ZnNEF2Y0ZucVBOa2N6ZWRoVUdCYnNIcDRGWU9qOHBPYnlKMklsZytVMzBnPSIsIml2UGFyYW1ldGVyU3BlYyI6IjRXamZCL3JmRHZ1eFVOZUciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
+![AWS](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoid0xtVjlMeXByaGEwbDNiNTFqd1hnaVUycisyckkvQzF6dEcwQkFBNEFub2ZnNEF2Y0ZucVBOa2N6ZWRoVUdCYnNIcDRGWU9qOHBPYnlKMklsZytVMzBnPSIsIml2UGFyYW1ldGVyU3BlYyI6IjRXamZCL3JmRHZ1eFVOZUciLCJtYXRlcmlhbFNldFNlcmlhbCI6MX0%3D&branch=main)
 
 # compile-python
 This is a repo for compiling and installing python
