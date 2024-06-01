@@ -2,4 +2,7 @@ pytest
 pylint
 pytest-cov
 black
+ipython
+jupyter
+nbval
 
