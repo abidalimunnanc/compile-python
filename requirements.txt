@@ -2,7 +2,7 @@ pylint==3.2.2
 pytest==8.2.1
 pytest-cov==5.0.0
 black==24.4.2
-ipython==8.25.0
+ipython
 jupyter==1.0.0
 nbval==0.11.0
 ipdb==0.13.13
