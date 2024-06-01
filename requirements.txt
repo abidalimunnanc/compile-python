@@ -1,4 +1,4 @@
 pytest
 pylint
 pytest-cov
-ipython
+
