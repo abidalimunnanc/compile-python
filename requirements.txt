@@ -1,1 +1,6 @@
 ludwig
+pytest
+pylint
+black
+pytest-cov
+ipython
