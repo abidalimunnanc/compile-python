@@ -5,11 +5,11 @@ This is a repo for compiling and installing python
 
 `sudo apt-get install build-essential gdb lcov libbz2-dev libffi-dev libgdbm-dev liblzma-dev libncurses5-dev libreadline6-dev libsqlite3-dev libssl-dev lzma lzma-dev tk-dev uuid-dev zlib1g-dev`
 
-`wget https://www.python.org/ftp/python/3.10.5/Python-3.10.5.tgz`
+`wget https://www.python.org/ftp/python/3.10.5/Python-3.x.x.tgz`
 
 ` ./configure --enable-optimizations`
 
-`make -j 16`
+`make -j <num core>`
 
 `make altinstall `
 
