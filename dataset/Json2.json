@@ -1,0 +1,186 @@
+{
+	"name": "Json2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "drivers.json",
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"MRData": {
+					"type": "object",
+					"properties": {
+						"xmlns": {
+							"type": "string"
+						},
+						"series": {
+							"type": "string"
+						},
+						"url": {
+							"type": "string"
+						},
+						"limit": {
+							"type": "string"
+						},
+						"offset": {
+							"type": "string"
+						},
+						"total": {
+							"type": "string"
+						},
+						"RaceTable": {
+							"type": "object",
+							"properties": {
+								"Races": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"season": {
+												"type": "string"
+											},
+											"round": {
+												"type": "string"
+											},
+											"url": {
+												"type": "string"
+											},
+											"raceName": {
+												"type": "string"
+											},
+											"Circuit": {
+												"type": "object",
+												"properties": {
+													"circuitId": {
+														"type": "string"
+													},
+													"url": {
+														"type": "string"
+													},
+													"circuitName": {
+														"type": "string"
+													},
+													"Location": {
+														"type": "object",
+														"properties": {
+															"lat": {
+																"type": "string"
+															},
+															"long": {
+																"type": "string"
+															},
+															"locality": {
+																"type": "string"
+															},
+															"country": {
+																"type": "string"
+															}
+														}
+													}
+												}
+											},
+											"date": {
+												"type": "string"
+											},
+											"Results": {
+												"type": "array",
+												"items": {
+													"type": "object",
+													"properties": {
+														"number": {
+															"type": "string"
+														},
+														"position": {
+															"type": "string"
+														},
+														"positionText": {
+															"type": "string"
+														},
+														"points": {
+															"type": "string"
+														},
+														"Driver": {
+															"type": "object",
+															"properties": {
+																"driverId": {
+																	"type": "string"
+																},
+																"url": {
+																	"type": "string"
+																},
+																"givenName": {
+																	"type": "string"
+																},
+																"familyName": {
+																	"type": "string"
+																},
+																"dateOfBirth": {
+																	"type": "string"
+																},
+																"nationality": {
+																	"type": "string"
+																}
+															}
+														},
+														"Constructor": {
+															"type": "object",
+															"properties": {
+																"constructorId": {
+																	"type": "string"
+																},
+																"url": {
+																	"type": "string"
+																},
+																"name": {
+																	"type": "string"
+																},
+																"nationality": {
+																	"type": "string"
+																}
+															}
+														},
+														"grid": {
+															"type": "string"
+														},
+														"laps": {
+															"type": "string"
+														},
+														"status": {
+															"type": "string"
+														},
+														"Time": {
+															"type": "object",
+															"properties": {
+																"millis": {
+																	"type": "string"
+																},
+																"time": {
+																	"type": "string"
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
